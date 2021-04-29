@@ -41,6 +41,9 @@ Plugin 'VundleVim/Vundle.vim'
 " NERDTree para visualizar los archivos
 Plugin 'preservim/nerdtree'
 
+" Plugin para ver cambios con respecto a lo que hay en el repositorio
+Plugin 'airblade/vim-gitgutter'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 
