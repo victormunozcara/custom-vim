@@ -11,7 +11,8 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set shiftround
-set expandtab  " Insertar espacios en lugar de <Tab>s
+set expandtab  " Insertar espacios en lugar de <Tab>
+set autoindent 
 
 set ignorecase  " Ignorar mayúsculas al hacer una búsqueda
 set smartcase  " No ignorar mayúsculas si la palabra a buscar contiene mayúsculas
@@ -82,6 +83,8 @@ filetype plugin indent on    " required
 
 
 
+
+" Inicializar NVim
 " autocmd VimEnter * NERDTree  " Muestra NERDTree al abrir NVim
 
 
