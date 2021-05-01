@@ -5,7 +5,6 @@ set nowrap  " No dividir la línea si es muy larga
 " set mouse=a  " Permite la integración del mouse (seleccionar texto, mover el cursor)
 " set cursorline  " Resalta la línea actual
 set colorcolumn=120  " Muestra la columna límite a 120 caracteres
-
 " Indentación a 2 espacios
 set tabstop=2
 set shiftwidth=2
@@ -19,12 +18,11 @@ set smartcase  " No ignorar mayúsculas si la palabra a buscar contiene mayúscu
 set spelllang=en,es  " Corregir palabras usando diccionarios en inglés y español
 
 set termguicolors  " Activa true colors en la terminal
-set background=light  " Fondo del tema: light o dark
+set background=dark " Fondo del tema: light o dark
 colorscheme elflord  " Esquema de color 
 
 " ATAJOS DE TECLADO
 " nnoremap <C-s> :w<CR>
-
 
 " PLUGINS
 set nocompatible              " be iMproved, required
@@ -34,7 +32,7 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+" call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
@@ -69,8 +67,9 @@ Plugin 'airblade/vim-gitgutter'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+
 " To ignore plugin indent changes, instead use:
-"filetype plugin on
+" filetype plugin on
 "
 " Brief help
 " :PluginList       - lists configured plugins
@@ -80,8 +79,6 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-
-
 
 
 " Inicializar NVim
