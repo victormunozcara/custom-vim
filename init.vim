@@ -11,7 +11,6 @@ set shiftwidth=2
 set softtabstop=2
 set shiftround
 set expandtab  " Insertar espacios en lugar de <Tab>
-set autoindent 
 
 set ignorecase  " Ignorar mayúsculas al hacer una búsqueda
 set smartcase  " No ignorar mayúsculas si la palabra a buscar contiene mayúsculas
@@ -42,6 +41,10 @@ Plugin 'preservim/nerdtree'
 
 " Plugin para ver cambios con respecto a lo que hay en el repositorio
 Plugin 'airblade/vim-gitgutter'
+
+" Plugins javascript
+Plugin 'pangloss/vim-javascript' 
+Plugin 'leafgarland/typescript-vim' 
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -84,4 +87,5 @@ filetype plugin indent on    " required
 " Inicializar NVim
 " autocmd VimEnter * NERDTree  " Muestra NERDTree al abrir NVim
 
+set autoindent 
 
