@@ -46,6 +46,12 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'pangloss/vim-javascript' 
 Plugin 'leafgarland/typescript-vim' 
 
+" Plugin para autocompletado de llaves, paréntesis, ...
+Plugin 'jiangmiao/auto-pairs'
+
+" Plugin para resaltar la indentación
+Plugin 'Yggdroot/indentLine'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 
