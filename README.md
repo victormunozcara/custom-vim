@@ -27,6 +27,11 @@ A continuación instalamos y actualizamos los plugins ejecutando el comando sigu
 :PluginUpdate
 ```
 
+Si editamos nuestro archivo .vimrc o init.vim añadiendo un nuevo plugin y queremos instalarlo, ejecutaremos: 
+```
+:PluginInstall
+```
+
 ## Referencias
 
 * [Gestor de plugins Vundle](https://github.com/VundleVim/Vundle.vim) 
