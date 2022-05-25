@@ -50,7 +50,7 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'jiangmiao/auto-pairs'
 
 " Plugin para resaltar la indentación
-Plugin 'Yggdroot/indentLine'
+" Plugin 'Yggdroot/indentLine'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
