@@ -22,6 +22,8 @@ colorscheme elflord  " Esquema de color
 
 " ATAJOS DE TECLADO
 " nnoremap <C-s> :w<CR>
+nmap <c-s> :w<CR>
+imap <c-s> <c-o>:w<CR>
 
 " PLUGINS
 set nocompatible              " be iMproved, required
