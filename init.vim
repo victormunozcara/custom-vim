@@ -1,9 +1,10 @@
 " Archivo de personalización de NVIM
 set title  " Muestra el nombre del archivo en la ventana de la terminal
 set number  " Muestra los números de las líneas
+set relativenumber " Muestra las lineas relativas a nuestra posición
 set nowrap  " No dividir la línea si es muy larga
-" set mouse=a  " Permite la integración del mouse (seleccionar texto, mover el cursor)
-" set cursorline  " Resalta la línea actual
+set mouse=a  " Permite la integración del mouse (seleccionar texto, mover el cursor)
+set cursorline  " Resalta la línea actual
 set colorcolumn=120  " Muestra la columna límite a 120 caracteres
 " Indentación a 2 espacios
 set tabstop=2
@@ -18,7 +19,7 @@ set spelllang=en,es  " Corregir palabras usando diccionarios en inglés y españ
 
 set termguicolors  " Activa true colors en la terminal
 set background=dark " Fondo del tema: light o dark
-colorscheme elflord  " Esquema de color 
+" colorscheme elflord  " Esquema de color 
 
 " ATAJOS DE TECLADO
 " nnoremap <C-s> :w<CR>
@@ -50,6 +51,12 @@ Plugin 'leafgarland/typescript-vim'
 
 " Plugin para autocompletado de llaves, paréntesis, ...
 Plugin 'jiangmiao/auto-pairs'
+
+" Plugin para la línea de estado
+Plugin 'itchyny/lightline.vim'
+
+" Plugin para el tema de color
+Plugin 'morhetz/gruvbox'
 
 " Plugin para resaltar la indentación
 " Plugin 'Yggdroot/indentLine'
@@ -96,4 +103,5 @@ filetype plugin indent on    " required
 " autocmd VimEnter * NERDTree  " Muestra NERDTree al abrir NVim
 
 set autoindent 
-
+set background=dark
+colorscheme gruvbox
